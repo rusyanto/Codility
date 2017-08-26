@@ -1,6 +1,5 @@
 class Solution {
     public int solution(int[] A) {
-        int tmp;
         int[] sorted = new int[A.length];
         for(int i=0; i<A.length; i++) {
             if(A[i]<1) {
